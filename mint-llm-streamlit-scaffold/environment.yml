@@ -1,0 +1,16 @@
+name: mintllm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit>=1.36
+      - MDAnalysis>=2.6
+      - numpy>=1.26
+      - pandas>=2.0
+      - matplotlib>=3.8
+      - pydantic>=2.7
+      - openai>=1.30
+      - py3Dmol>=2.0.4

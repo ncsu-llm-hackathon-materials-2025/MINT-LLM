@@ -1,0 +1,64 @@
+########To run locally using environment.yml (linux/mac/windows)########
+1. From Anaconda Prompt (Windows) or terminal (Linux/Mac)
+
+conda env create -f environment.yml
+conda activate mintllm
+
+
+2. Run Streamlit
+
+streamlit run app.py
+
+### alternative instructions using requirements.txt file ###
+
+########To run locally (linux/mac)########
+
+1. Create fresh conda environemnt
+
+conda create -n mintllm python=3.10 -y
+conda activate mintllm
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run streamlit!
+
+streamlit run app.py
+
+
+########To run locally (windows)########
+
+1. Open Anaconda Prompt
+
+Click Start → Anaconda Prompt (or open your terminal if conda is already on PATH).
+
+All commands below should be typed in that window.
+
+2. Create a fresh environment
+conda create -n mintllm python=3.10 -y
+conda activate mintllm
+
+
+(This makes and activates an environment called mintllm.)
+
+3. Install dependencies
+
+Navigate to your project folder first, for example:
+
+cd path\to\mint-llm-streamlit-scaffold-fixed
+
+
+Then install:
+
+pip install -r requirements.txt
+
+4. Run Streamlit
+
+Still in the project folder:
+
+streamlit run app.py
+
+
+This will launch Streamlit and open a browser tab (or give you a local URL to copy-paste).
+
